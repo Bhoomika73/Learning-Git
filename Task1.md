@@ -1,14 +1,14 @@
-#Task 1: Mastering Git
+# Task 1: Mastering Git
 
 [TOC]
 
-####What is VCS? Why is it important?
+### What is VCS? Why is it important?
 
-##### What is VCS?
+#### What is VCS?
 
 ​	Version Control Systems is one of the most important tools for any project. It is a category of software tool that help a software team manage changes to the source code over time. This system is also called as Revision Control or Source Code Management. It allows the user to manage changes in the documents, computer programs, websites etc.  The system keeps track of every modification to the code  in a special kind of database. These modifications or revisions can then be compared, restored and merged using this system.
 
-#####Why do we need Version Control?
+#### Why do we need Version Control?
 
 ​	VCS can be used for various reasons like maintaining multiple versions of a product, reverting back certain changes that are brought about in the code, trying to back up very old or lost codes,bringing about changes in others codes or letting other people changing your codes, experimenting with the code without bringing about changes in  the working code, etc.
 
@@ -23,9 +23,9 @@ Some benifits of using VCS are :
 
 ***
 
-####How to clone a Git repository?
+### How to clone a Git repository?
 
-##### Why do we need to clone a repository?
+#### Why do we need to clone a repository?
 
 ​	When a new repository is created on GitHub, the project is stored on a  remote location. Cloning is done so that the user can sync between the local location on the computer and remote location of the project. This is also used when the user wants projects done by 2 individuals to get merged so that he gets a single project.
 
@@ -35,7 +35,7 @@ In Git, this can be done through a Git Clone. It basically
 2. Adds the remote URL to the local repository
 3. Pulls the repository onto the computer.
 
-##### How to clone the repository?
+#### How to clone the repository?
 
 1. On GitHub, navigate to the repository file which you want to clone. 
 2. Under the repository name, click ==**Clone or download**==.
@@ -43,7 +43,7 @@ In Git, this can be done through a Git Clone. It basically
 4. Open **Git Bash**.
 5. Change the directory in Git Bash to the location where you want the cloned directory to be made.
 
-6.     Type ==**git clone <paste URL> **==.
+6. Type ==**git clone <paste URL> **==.
 
 
 7.     Press **Enter**. Your local clone will be created.
@@ -52,11 +52,11 @@ In Git, this can be done through a Git Clone. It basically
 
 ***
 
-#### How to pull/push to remote repository?
+### How to pull/push to remote repository?
 
 The **push** command sends changes to the master branch of your remote repository.
 
-##### To Push commits made on the remote repository:
+#### To Push commits made on the remote repository:
 
 1. Go to **Git Bash**.
 2. Type ==**git push -u <remote> <branch>**==
@@ -69,7 +69,7 @@ The  **Push** command takes two arguments:
 
 > Example: git push -u origin master
 
-##### To pull from a Git Repository:
+#### To pull from a Git Repository:
 
 1. Go to **Git Bash**.
 2. Type ==**git pull**==
@@ -79,13 +79,13 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 ***
 
-#### How to check the status of the repository?
+### How to check the status of the repository?
 
-##### Why do we need to check the status of the repository?
+#### Why do we need to check the status of the repository?
 
 ​	The command is used to check the status of the repository and report if there is anything to commit and records if any changes have to be done to the project. This command keeps monitoring the states of both the working directory and the repository. 
 
-##### How to check the status of the repository:
+#### How to check the status of the repository:
 
 1. Go to **Git Bash**.
 2. Type ==**git status**==
@@ -93,16 +93,16 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 ***
 
-####How to create and switch to a branch?
+### How to create and switch to a branch?
 
-##### To create a new branch:
+#### To create a new branch:
 
 1. First create a branch locally.
 2. For this go to **Git Bash**.
 3. Type ==**git branch <branch name>**== 
 4. Press **Enter**.
 
-##### To switch to the branch:
+#### To switch to the branch:
 
 1. Type ==**git checkout -b <branch-name>**==.
 2. Type ==**push <remote> <branch-name>**==.
@@ -127,13 +127,13 @@ The **git remote add** command takes two arguments:
 
 ***
 
-#### How to merge two branch?
+### How to merge two branch?
 
-##### When do we merge 2 branches?
+#### When do we merge 2 branches?
 
 ​	If a situation arises when the working project is in branch "A". Suppose the programmer makes changes to this branch and saves it in branch “B” and now wants to get only one branch then he must merge the 2 branches.
 
-##### How to merge 2 branches?
+#### How to merge 2 branches?
 
 1. Go to **Git Bash**.
 2. Type ==**git checkout A**== and press **Enter** to switch to branch A.
@@ -142,13 +142,13 @@ The **git remote add** command takes two arguments:
 
 ***
 
-#### How to resolve merge conflicts?
+### How to resolve merge conflicts?
 
-##### When does merge conflicts occur?
+#### When does merge conflicts occur?
 
 ​	Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file. The most common situation is when the exact same line of a file are edited in conflicting ways.
 
-##### To resolve merge conflicts:
+#### To resolve merge conflicts:
 
 1. First check if there is any merge conflicts in the file. 
 2. For this type ==**git status**== and press **Enter** . By this the user will get to know if there is any merge conflicts and which is the line that has the merge conflict.
@@ -156,7 +156,7 @@ The **git remote add** command takes two arguments:
 
 ***
 
-#### How to commit changes?
+### How to commit changes?
 
 1. First resolve all the merge conflicts and do all the necessary changes.
 2. Open **Git Bash**.
@@ -165,7 +165,7 @@ The **git remote add** command takes two arguments:
 
 ***
 
-#### How to stash changes?
+### How to stash changes?
 
 ​	Once the changes are done in the project, the user either has to commit these changes or lose them by switching to the other commit. If he does not want to do either of these options, then he can do Stashing. For this,
 
