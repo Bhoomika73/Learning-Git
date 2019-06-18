@@ -38,12 +38,12 @@ In Git, this can be done through a Git Clone. It basically
 #### To clone the repository:
 
 1. On GitHub, navigate to the repository file which you want to clone. 
-2. Under the repository name, click <mark>**Clone or download**</mark>.
+2. Under the repository name, click ***Clone or download*** .
 3. Copy the URL which is given there. 
-4. Open **Git Bash**.
+4. Open *Git Bash*.
 5. Change the directory in Git Bash to the location where you want the cloned directory to be made.
-6. Type ==**git clone (paste URL)**==.
-7. Press **Enter**.
+6. Type ***git clone (paste URL)***.
+7. Press *Enter*.
 
 
 > Example: git clone https://github.com/Bhoomika73/testit.git
@@ -56,11 +56,11 @@ The **push** command sends changes to the master branch of your remote repositor
 
 #### To Push commits made on the remote repository:
 
-1. Go to **Git Bash**.
-2. Type ==**git push -u (remote) (branch)**==
-3. Press **Enter**.
+1. Go to *Git Bash*.
+2. Type ***git push -u (remote) (branch)***
+3. Press *Enter*.
 
-The  **Push** command takes two arguments:
+The  *Push* command takes two arguments:
 
 - A remote name,     for example: origin
 - A branch name,     for example: master
@@ -69,11 +69,11 @@ The  **Push** command takes two arguments:
 
 #### To pull from a Git Repository:
 
-1. Go to **Git Bash**.
-2. Type ==**git pull**==
-3. Press **Enter**.
+1. Go to *Git Bash*.
+2. Type ***git pull***
+3. Press *Enter*.
 
-The **Pull** Command is used to fetch and merge changes on the remote server to the required working directory
+The *Pull* Command is used to fetch and merge changes on the remote server to the required working directory
 
 ***
 
@@ -85,9 +85,9 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 #### To check the status of the repository:
 
-1. Go to **Git Bash**.
-2. Type ==**git status**==
-3. Press **Enter**. 
+1. Go to *Git Bash*.
+2. Type ***git status***
+3. Press *Enter*. 
 
 ***
 
@@ -96,15 +96,15 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 #### To create a new branch:
 
 1. First create a branch locally.
-2. For this go to **Git Bash**.
-3. Type ==**git branch (branch name)**== 
-4. Press **Enter**.
+2. For this go to *Git Bash*.
+3. Type ***git branch (branch name)*** 
+4. Press *Enter*.
 
 #### To switch to the branch:
 
-1. Type ==**git checkout -b (branch-name)**==.
-2. Type ==**push (remote)(branch-name)**==.
-3. Press **Enter**.
+1. Type ***git checkout -b (branch-name)***.
+2. Type ***push (remote)(branch-name)***.
+3. Press *Enter*.
 
 ***
 
@@ -112,11 +112,11 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 To add a new remote to the repository 
 
-1. Go to **Git Bash**.
-2. Type ==**git remote add (remote name)(remote URL)**==.
-3. Press **Enter**.
+1. Go to *Git Bash*.
+2. Type ***git remote add (remote name)(remote URL)***.
+3. Press *Enter*.
 
-The **git remote add** command takes two arguments:
+The *git remote add* command takes two arguments:
 
 - A remote name, for example: origin
 - A remote URL, for example: https://github.com/user/repo.git
@@ -133,10 +133,10 @@ The **git remote add** command takes two arguments:
 
 #### To merge 2 branches:
 
-1. Go to **Git Bash**.
-2. Type ==**git checkout A**== and press **Enter** to switch to branch A.
-3. Type ==**git merge B**== and press **Enter** to merge all changes from branch B into branch A.
-4. Type ==**git commit -A**== and press **Enter** to commit all the changes.
+1. Go to *Git Bash*.
+2. Type ***git checkout A*** and press *Enter* to switch to branch A.
+3. Type ***git merge B*** and press *Enter* to merge all changes from branch B into branch A.
+4. Type ***git commit -A*** and press *Enter* to commit all the changes.
 
 ***
 
@@ -149,7 +149,7 @@ The **git remote add** command takes two arguments:
 #### To resolve merge conflicts:
 
 1. First check if there is any merge conflicts in the file. 
-2. For this type ==**git status**== and press **Enter** . By this the user will get to know if there is any merge conflicts and which is the line that has the merge conflict.
+2. For this type ***git status*** and press *Enter* . By this the user will get to know if there is any merge conflicts and which is the line that has the merge conflict.
 3. Solve the merge conflict by editing the particular lines. For this, open the file in the editor and make the necessary modifications.
 
 ***
@@ -157,9 +157,9 @@ The **git remote add** command takes two arguments:
 ### How to commit changes?
 
 1. First resolve all the merge conflicts and do all the necessary changes.
-2. Open **Git Bash**.
-3. Then type ==**git commit -m "(comment)" (file name)**==.
-4. Then press **Enter**.
+2. Open *Git Bash*.
+3. Then type ***git commit -m "(comment)" (file name)***.
+4. Then press *Enter*.
 
 ***
 
@@ -167,8 +167,8 @@ The **git remote add** command takes two arguments:
 
 ​	Once the changes are done in the project, the user either has to commit these changes or lose them by switching to the other commit. If he does not want to do either of these options, then he can do Stashing. For this,
 
-1. Type ==**git stash save (filename)**==.
-2. Press **Enter**.
+1. Type ***git stash save (filename)***.
+2. Press *Enter*.
 
 ***
 
