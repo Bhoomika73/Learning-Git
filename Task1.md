@@ -38,7 +38,7 @@ In Git, this can be done through a Git Clone. It basically
 #### To clone the repository:
 
 1. On GitHub, navigate to the repository file which you want to clone. 
-2. Under the repository name, click ==**Clone or download**==.
+2. Under the repository name, click <mark>**Clone or download**</mark>.
 3. Copy the URL which is given there. 
 4. Open **Git Bash**.
 5. Change the directory in Git Bash to the location where you want the cloned directory to be made.
