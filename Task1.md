@@ -52,7 +52,7 @@ In Git, this can be done through a Git Clone. It basically
 
 ### How to pull/push to remote repository?
 
-The **push** command sends changes to the master branch of your remote repository.
+The *push* command sends changes to the master branch of your remote repository.
 
 #### To Push commits made on the remote repository:
 
