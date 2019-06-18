@@ -42,11 +42,9 @@ In Git, this can be done through a Git Clone. It basically
 3. Copy the URL which is given there. 
 4. Open **Git Bash**.
 5. Change the directory in Git Bash to the location where you want the cloned directory to be made.
+6. Type ==**git clone (paste URL)**==.
+7. Press **Enter**.
 
-6. Type ==**git clone <paste URL> **==.
-
-
-7.     Press **Enter**. Your local clone will be created.
 
 > Example: git clone https://github.com/Bhoomika73/testit.git
 
@@ -59,7 +57,7 @@ The **push** command sends changes to the master branch of your remote repositor
 #### To Push commits made on the remote repository:
 
 1. Go to **Git Bash**.
-2. Type ==**git push -u <remote> <branch>**==
+2. Type ==**git push -u (remote) (branch)**==
 3. Press **Enter**.
 
 The  **Push** command takes two arguments:
@@ -99,13 +97,13 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 1. First create a branch locally.
 2. For this go to **Git Bash**.
-3. Type ==**git branch <branch name>**== 
+3. Type ==**git branch (branch name)**== 
 4. Press **Enter**.
 
 #### To switch to the branch:
 
-1. Type ==**git checkout -b <branch-name>**==.
-2. Type ==**push <remote> <branch-name>**==.
+1. Type ==**git checkout -b (branch-name)**==.
+2. Type ==**push (remote)(branch-name)**==.
 3. Press **Enter**.
 
 ***
@@ -115,7 +113,7 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 To add a new remote to the repository 
 
 1. Go to **Git Bash**.
-2. Type ==**git remote add <remote name><remote URL>**==.
+2. Type ==**git remote add (remote name)(remote URL)**==.
 3. Press **Enter**.
 
 The **git remote add** command takes two arguments:
@@ -160,7 +158,7 @@ The **git remote add** command takes two arguments:
 
 1. First resolve all the merge conflicts and do all the necessary changes.
 2. Open **Git Bash**.
-3. Then type ==**git commit -m "<comment>" <file name>**==.
+3. Then type ==**git commit -m "(comment)" (file name)**==.
 4. Then press **Enter**.
 
 ***
@@ -169,7 +167,7 @@ The **git remote add** command takes two arguments:
 
 ​	Once the changes are done in the project, the user either has to commit these changes or lose them by switching to the other commit. If he does not want to do either of these options, then he can do Stashing. For this,
 
-1. Type ==**git stash save <filename>**==.
+1. Type ==**git stash save (filename)**==.
 2. Press **Enter**.
 
 ***
