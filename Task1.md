@@ -35,7 +35,7 @@ In Git, this can be done through a Git Clone. It basically
 2. Adds the remote URL to the local repository
 3. Pulls the repository onto the computer.
 
-#### How to clone the repository?
+#### To clone the repository?
 
 1. On GitHub, navigate to the repository file which you want to clone. 
 2. Under the repository name, click ==**Clone or download**==.
@@ -85,7 +85,7 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 ​	The command is used to check the status of the repository and report if there is anything to commit and records if any changes have to be done to the project. This command keeps monitoring the states of both the working directory and the repository. 
 
-#### How to check the status of the repository:
+#### To check the status of the repository:
 
 1. Go to **Git Bash**.
 2. Type ==**git status**==
@@ -110,7 +110,7 @@ The **Pull** Command is used to fetch and merge changes on the remote server to 
 
 ***
 
-#### How to connect to a remote a repository?
+### How to connect to a remote a repository?
 
 To add a new remote to the repository 
 
@@ -133,7 +133,7 @@ The **git remote add** command takes two arguments:
 
 ​	If a situation arises when the working project is in branch "A". Suppose the programmer makes changes to this branch and saves it in branch “B” and now wants to get only one branch then he must merge the 2 branches.
 
-#### How to merge 2 branches?
+#### To merge 2 branches?
 
 1. Go to **Git Bash**.
 2. Type ==**git checkout A**== and press **Enter** to switch to branch A.
