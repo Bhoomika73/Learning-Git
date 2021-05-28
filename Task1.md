@@ -1,7 +1,5 @@
 # Task 1: Mastering Git
 
-[TOC]
-
 ### What is VCS? Why is it important?
 
 #### What is VCS?
